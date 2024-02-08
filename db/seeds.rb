@@ -11,3 +11,23 @@
 users = User.create([
   {name: "Nemwel Boniface", phone: 754135545, email: "nemwelboniface@outlook.com"}
 ])
+
+Book.create!(
+  title: "Book 1",
+  author: "Author 1",
+  publisher: "Publisher 1",
+  publish_date: Date.today,
+  genre: "Genre 1",
+  price: 250,
+  user_id: 1
+)
+
+Book.create!(
+  title: "Book 2",
+  author: "Author 2",
+  publisher: "Publisher 2",
+  publish_date: Date.today,
+  genre: "Genre 2",
+  price: 350,
+  user_id: 1
+)
